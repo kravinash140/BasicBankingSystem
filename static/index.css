@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color : #eee
+}
+
+h1 , h2, h3 {   
+    font-weight: 600;
+}
+
+header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('./images/bank.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar-expand-lg {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.navbar-brand {
+    font-size : 1.4em;
+    font-weight: 600;
+}
+
+.nav-link {
+    font-size : 1.2em;
+
+}
+
+.customcontainer {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.card-link   {
+    font-size : 1.5em !important;
+    text-decoration: none;
+    font-weight:600;
+    color:red;
+}
+
+#transfer {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/transfer.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#about {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contact {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/230554/pexels-photo-230554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fab {
+    font-size : 3em;
+    background-color: #fff;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 8px;
+    color: #000;
+}
+
+.fab:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all ease-in-out 300ms;
+}
+
+footer {
+    background-color: lightgray;
+}
+
+footer > p {
+    font-size : 1.2em;
+}
